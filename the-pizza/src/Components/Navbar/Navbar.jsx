@@ -30,12 +30,12 @@ export function Header() {
   return (
     <Navbar expand='lg' className={navbarClasses}>
       <Container>
-        <Navbar.Brand  data-bs-theme="light" href='#home'as={Link} to='/'>
+        <Navbar.Brand className='my-0' data-bs-theme="light" href='#home'as={Link} to='/'>
           <img
             alt='Logo'
             src='./img/logo.jpg'
-            width='90'
-            height='90'
+            width='80'
+            height='80'
             className='d-inline-block align-top rounded-circle'
           />
         </Navbar.Brand>

@@ -2,6 +2,7 @@
     background-color: #0b1519 ;
     min-height: 100vh;
     color: white;
+    
 }
 .special h2{
     font-family: "Special Elite", sans-serif;
@@ -47,5 +48,9 @@
     .special-text{
         width: 100%;
         
+    }
+    .special h2{
+        font-family: "Special Elite", sans-serif;
+        padding-top: 10px;
     }
 }

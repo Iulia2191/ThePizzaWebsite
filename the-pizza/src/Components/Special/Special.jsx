@@ -4,12 +4,12 @@ import './Special.css'
 function Special () {
   return (
     <div className='special text-center'>
-      <h2>Heutige Spezialität</h2>
-      <div className='special-container mx-5 my-5'>
+      <h2 className='pb-3'>Heutige Spezialität</h2>
+      <div className='special-container '>
         <div className='special-img'>
           <img src='../img/prosciutto.jpg' alt='' />
         </div>
-        <div className='special-text px-3'>
+        <div className='special-text'>
           <h4>Prosciutto Crudo Pizza</h4>
           <p>
             Unsere köstliche Prosciutto Crudo Pizza ist eine wahre Gaumenfreude.

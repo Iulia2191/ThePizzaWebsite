@@ -1,0 +1,19 @@
+.testimonials{
+    min-height: 50vh;
+    background-color:  #0b1519;
+
+}
+.testimonials h2{
+    font-family: "Special Elite", sans-serif;
+}
+.card{
+    background-color:  #131d1f !important;
+    color: white !important;
+    margin-top: 10px;
+}
+
+@media(max-width:320px){
+    .testimonials h2{
+        padding-top: 20px;
+    }
+}
