@@ -1,0 +1,51 @@
+.special{
+    background-color: #0b1519 ;
+    min-height: 100vh;
+    color: white;
+}
+.special h2{
+    font-family: "Special Elite", sans-serif;
+}
+.special-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #131d1f ;
+    width: fit-content;
+    
+}
+.special-img{
+    width: 50%;
+}
+
+.special-img img{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    
+}
+.special-text{
+    width: 50%;
+    
+}
+
+@media(max-width:920px){
+    .special-container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .special-img{
+        width: 100%;
+        object-fit: cover;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        
+    }
+    .special-text{
+        width: 100%;
+        
+    }
+}

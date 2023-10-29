@@ -1,0 +1,11 @@
+.navbar-collapse {
+    flex-grow: 0 !important;
+    z-index: 3;
+    color: white !important;
+   
+}
+
+
+.scrolling {
+    background-color: #530B0E !important;
+  }

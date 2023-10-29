@@ -1,0 +1,18 @@
+.cta {
+  background-image: url('../img/header1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  margin-top: 0;
+}
+.cta-text {
+  padding-top: 250px;
+  color: white;
+  font-family: "Special Elite", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+button{
+  font-family: sans-serif !important;
+}
