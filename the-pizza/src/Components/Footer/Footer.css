@@ -2,8 +2,13 @@
     min-height: 30vh;
     background-color: #0b1519;
     color: white;
+    margin: auto;
 }
-.footer .h3, .h4{
+.title{
+    font-family: "Special Elite", sans-serif;
+    color: #530B0E;
+}
+.nap{
     font-family: "Special Elite", sans-serif;
     color: #530B0E;
 }
@@ -11,5 +16,15 @@ span{
     vertical-align: middle;
 }
 .facebook{
-    vertical-align: text-top;
+    vertical-align:baseline;
+   font-size: 20px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col1{
+    align-self: center;
 }
