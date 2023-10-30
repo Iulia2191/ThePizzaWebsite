@@ -1,19 +1,23 @@
-.testimonials{
-    min-height: 50vh;
-    background-color:  #0b1519;
+.testimonials {
+  min-height: 50vh;
+  background-color: #0b1519;
+}
+.testimonials h2 {
+  font-family: 'Special Elite', sans-serif;
+}
+.card {
+  background-color: #131d1f !important;
+  color: white !important;
+  margin-top: 10px;
+}
+.card:hover {
+  box-shadow: 8px 13px 35px 3px #ffc107;
+  -webkit-box-shadow: 8px 13px 35px 3px #ffc107;
+  -moz-box-shadow: 8px 13px 35px 3px #ffc107;
+}
 
-}
-.testimonials h2{
-    font-family: "Special Elite", sans-serif;
-}
-.card{
-    background-color:  #131d1f !important;
-    color: white !important;
-    margin-top: 10px;
-}
-
-@media(max-width:320px){
-    .testimonials h2{
-        padding-top: 20px;
-    }
+@media (max-width: 320px) {
+  .testimonials h2 {
+    padding-top: 20px;
+  }
 }
