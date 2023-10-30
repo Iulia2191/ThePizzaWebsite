@@ -1,0 +1,34 @@
+.about{
+    min-height: 100vh;
+    background-color: #0b1519;
+    
+}
+.about-title{
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    height: 40vh;
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Special Elite', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 3px #530B0E;
+}
+
+.about-text{
+    color: white;
+   padding: 10%
+}
+.about-text p{
+    padding: 5px;
+}
+
+.about a{
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.about span{
+    vertical-align: baseline;
+    padding: 10px;
+}
