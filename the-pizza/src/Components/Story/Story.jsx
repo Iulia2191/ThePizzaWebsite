@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 import './story.css'
 
 function Story () {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
   return (
     <div className='story pt-5 px-5'>
       <h2 className='text-center text-light py-3'>UNSERE GESCHICHTE</h2>
@@ -17,7 +20,7 @@ function Story () {
               begrüßen zu dürfen, wo die Pizza-Kultur zum Leben erweckt wird.{' '}
             </p>
             <Link to='/about'>
-              <button type='button' className='btn btn-warning my-3'>
+              <button onClick={scrollToTop} type='button' className='btn btn-warning my-3'>
                 Mehr lesen
               </button>
             </Link>

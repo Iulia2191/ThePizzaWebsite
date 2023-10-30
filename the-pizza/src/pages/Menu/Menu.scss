@@ -1,0 +1,17 @@
+.menu {
+  min-height: 100vh;
+  background-color: #0b1519;
+ text-align: center;
+
+  .menu-title {
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    height: 45vh;
+    padding-top: 120px;
+    text-align: center;
+    font-family: "Special Elite", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 3px #530b0e;
+  }
+}

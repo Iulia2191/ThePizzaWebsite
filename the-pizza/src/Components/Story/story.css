@@ -23,6 +23,9 @@ h4 {
 .story-img {
   height: 65vh;
 }
+.story-img img:hover{
+  transform: scale(1.1);
+}
 .story-img img {
   width: 100%;
   height: 65vh;

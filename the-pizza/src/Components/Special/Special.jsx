@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 import './Special.css'
 
 function Special () {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
   return (
     <div className='special text-center'>
       <h2 className='pb-3'>Heutige Spezialität</h2>
@@ -17,7 +20,7 @@ function Special () {
             fluffigem Rand und mit einer fruchtigen Tomatensauce bestrichen.
           </p>
           <Link to='/prosciutto'>
-            <button type='button' className='btn btn-warning my-3'>
+            <button onClick={scrollToTop} type='button' className='btn btn-warning my-3'>
               Finde mehr heraus
             </button>
           </Link>

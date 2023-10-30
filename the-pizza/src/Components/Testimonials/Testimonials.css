@@ -9,11 +9,7 @@
   background-color: #131d1f !important;
   color: white !important;
   margin-top: 10px;
-}
-.card:hover {
-  box-shadow: 8px 13px 35px 3px #ffc107;
-  -webkit-box-shadow: 8px 13px 35px 3px #ffc107;
-  -moz-box-shadow: 8px 13px 35px 3px #ffc107;
+  height: 250px !important;
 }
 
 @media (max-width: 320px) {

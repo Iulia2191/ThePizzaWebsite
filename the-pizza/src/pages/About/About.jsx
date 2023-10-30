@@ -9,6 +9,7 @@ function About () {
         </div>
         <div className='about-text'>
           <h5 className='my-3'>🍕Benvenuti! Beim neuen Geschmackserlebnis in der Stadt! 🎉 </h5>
+          <h5 className='my-3 mx-2'>Original Napolitanishe Pizza in Ybbs an Der Donau</h5>
           <p>
             Wir sind ein mobiler Pizzastand und sind gerne auch für Private
             Veranstaltungen und Events buchbar, ihr findet uns außerdem auch auf

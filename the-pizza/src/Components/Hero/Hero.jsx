@@ -3,6 +3,9 @@ import './Hero.css'
 import { Link } from 'react-router-dom'
 
 function Hero () {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
   return (
     <div className='cta text-center'>
       <div className='cta-text'>
@@ -10,7 +13,7 @@ function Hero () {
         <h2>Napolitan Style Pizza</h2>
         <h4>Original Napolitanishe Pizza in Ybbs an Der Donau</h4>
         <Link to='/menu'>
-        <button type="button" className="btn btn-warning my-3">Entdeken Unsere Menü</button>
+        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3">Entdeken Unsere Menü</button>
         </Link>
       </div>
     </div>
