@@ -24,7 +24,7 @@ function Footer () {
             </p>
             <p className='px-2'>
               <a href='https://www.facebook.com/profile.php?id=61552396569253'>
-                <span className='px-2 facebook'>
+                <span className='facebook'>
                   <FaFacebook />
                 </span>
               </a>
