@@ -16,7 +16,7 @@ function Special () {
             Sie wird auf einem hauchdünnen, knusprigen Teig zubereitet mit
             fluffigem Rand und mit einer fruchtigen Tomatensauce bestrichen.
           </p>
-          <Link to='/about'>
+          <Link to='/prosciutto'>
             <button type='button' className='btn btn-warning my-3'>
               Finde mehr heraus
             </button>

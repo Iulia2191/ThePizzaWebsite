@@ -1,0 +1,42 @@
+.prosciutto {
+  min-height: 100vh;
+  background-color: #0b1519 !important;
+}
+.prosciutto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prosciutto-title {
+  background-image: url('../img/about.jpg');
+  background-size: cover;
+  height: 43vh;
+  padding-top: 120px;
+  text-align: center;
+  font-family: 'Special Elite', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 3px #530b0e;
+}
+
+.prosciutto-text {
+  color: white;
+  padding: 5%;
+  letter-spacing: 1px;
+}
+.prosciutto-img {
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.prosciutto-img img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+@media (max-width: 850px) {
+  .prosciutto-img {
+    flex-direction: column;
+  }
+}
