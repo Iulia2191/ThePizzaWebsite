@@ -39,7 +39,7 @@ button{
 }
 @media(max-width:700px){
   .cta{
-    height: max-content;
+    min-height: 70vh;
   }
   .cta-text{
     padding-top: 90px;
