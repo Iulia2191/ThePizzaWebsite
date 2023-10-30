@@ -39,7 +39,7 @@ export function Header() {
             className='d-inline-block align-top rounded-circle'
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-warning' />
+        <Navbar.Toggle aria-controls='basic-navbar-nav' className='nav-menu' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto d-flex justify-content-end text-light'>
             <Nav.Link className='text-light' href='#link'as={Link} to='/'>Home</Nav.Link>
