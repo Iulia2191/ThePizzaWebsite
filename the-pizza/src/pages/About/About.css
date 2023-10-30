@@ -1,35 +1,33 @@
-.about{
-    min-height: 100vh;
-    background-color: #0b1519;
-    
+.about {
+  min-height: 100vh;
+  background-color: #0b1519;
 }
-.about-title{
-    background-image: url('../img/about.jpg');
-    background-size: cover;
-    height: 40vh;
-    padding-top: 120px;
-    text-align: center;
-    font-family: 'Special Elite', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: 2px 2px 3px #530B0E;
-}
-
-.about-text{
-    color: white;
-   padding: 5%;
-   letter-spacing: 1px;
-}
-.about-text p{
-    padding: 5px;
+.about-title {
+  background-image: url('../img/about.jpg');
+  background-size: cover;
+  height: 43vh;
+  padding-top: 120px;
+  text-align: center;
+  font-family: 'Special Elite', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 3px #530b0e;
 }
 
-.about a{
-    text-decoration: none;
-    font-weight: 600;
-
+.about-text {
+  color: white;
+  padding: 5%;
+  letter-spacing: 1px;
 }
-.about span{
-    vertical-align: baseline;
-    padding: 10px;
+.about-text p {
+  padding: 5px;
+}
+
+.about a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.about span {
+  vertical-align: baseline;
+  padding: 10px;
 }
