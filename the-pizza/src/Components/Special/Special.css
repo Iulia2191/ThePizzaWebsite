@@ -17,6 +17,11 @@
     width: fit-content;
     
 }
+.special-container:hover{
+    box-shadow: 8px 13px 35px 3px #ffc107;
+    -webkit-box-shadow: 8px 13px 35px 3px #ffc107;
+    -moz-box-shadow: 8px 13px 35px 3px #ffc107;
+}
 .special-img{
     width: 50%;
 }
