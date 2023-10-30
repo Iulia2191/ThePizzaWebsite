@@ -9,7 +9,7 @@ function Testimonials () {
         <div className='row'>
           <div className='col-12 col-sm-6 col-lg-4'>
             <Card>
-              <Card.Header>Quote</Card.Header>
+              <Card.Header>Zitat</Card.Header>
               <Card.Body>
                 <blockquote className='blockquote mb-0'>
                   <p>
@@ -25,7 +25,7 @@ function Testimonials () {
           </div>
           <div className='col-12 col-sm-6 col-lg-4'>
             <Card className='card'>
-              <Card.Header>Quote</Card.Header>
+              <Card.Header>Zitat</Card.Header>
               <Card.Body>
                 <blockquote className='blockquote mb-0'>
                   <p>
@@ -41,7 +41,7 @@ function Testimonials () {
           </div>
           <div className='col-12 col-sm-6 col-lg-4'>
             <Card>
-              <Card.Header>Quote</Card.Header>
+              <Card.Header>Zitat</Card.Header>
               <Card.Body>
                 <blockquote className='blockquote mb-0'>
                   <p>

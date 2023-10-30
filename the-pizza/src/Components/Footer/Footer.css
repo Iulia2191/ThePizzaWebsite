@@ -28,3 +28,13 @@ span{
 .col1{
     align-self: center;
 }
+
+@media(max-width:924px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .col1{
+       text-align: center;
+    }
+    
+}
