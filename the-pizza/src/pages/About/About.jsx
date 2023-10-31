@@ -8,8 +8,12 @@ function About () {
           <h2>Über Uns</h2>
         </div>
         <div className='about-text'>
-          <h5 className='my-3'>🍕Benvenuti! Beim neuen Geschmackserlebnis in der Stadt! 🎉 </h5>
-          <h5 className='my-3 mx-2'>Original Napolitanishe Pizza in Ybbs an Der Donau</h5>
+          <h5 className='my-4 m text-center'>
+            🍕Benvenuti! Beim neuen Geschmackserlebnis in der Stadt! 🎉{' '}
+          </h5>
+          <h5 className='my-2 mx-2'>
+            Original Napolitanishe Pizza in Ybbs an Der Donau
+          </h5>
           <p>
             Wir sind ein mobiler Pizzastand und sind gerne auch für Private
             Veranstaltungen und Events buchbar, ihr findet uns außerdem auch auf
@@ -33,7 +37,23 @@ function About () {
             in unserer neapolitanischen Pizzeria Ecke zu verwöhnen. Kommt vorbei
             und probiert unsere Köstlichkeiten! Buon Appetito!
           </p>
-          <p>Unsere aktuellen Termine werden stets auf Facebook veröffentlicht. Informationen über unseren Standort und unsere Öffnungszeiten finden Sie ebenfalls immer auf unserer <a href='https://www.facebook.com/profile.php?id=61552396569253'> Facebook-Seite. <span><FaFacebook /></span></a> </p>
+          <p>
+            Unsere aktuellen Termine werden stets auf Facebook veröffentlicht.
+            Informationen über unseren Standort und unsere Öffnungszeiten finden
+            Sie ebenfalls immer auf unserer{' '}
+            <a href='https://www.facebook.com/profile.php?id=61552396569253'>
+              {' '}
+              Facebook-Seite.{' '}
+              <span>
+                <FaFacebook />
+              </span>
+            </a>{' '}
+          </p>
+        </div>
+        <div className='img-container px-2 d-flex'>
+          <img src='../img/salami.jpg' alt='Salami Pizza' />
+
+          <img src='../img/oven.jpg' alt='Pizza Oven' />
         </div>
       </div>
     </div>

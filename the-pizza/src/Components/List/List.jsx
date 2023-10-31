@@ -110,7 +110,7 @@ function List () {
             {/* <div className='list-col col-6 col-lg-3'>
               <div className='list-img'>
                 <img
-                  src='../img/salami.jpg'
+                  src={data.src}
                   alt={item.title}
                   width='100px'
                   height='100px'
@@ -121,7 +121,15 @@ function List () {
             <div className='list-col col-6 col-lg-4 '>
               <div className='list-title'>
                 <h4 className='list-h4'>
-                  {item.isNew ? <span className="new h6 bg-danger rounded-circle" width='100px' height='100px'>New</span> : null}
+                  {item.isNew ? (
+                    <span
+                      className='new h6 bg-danger rounded-circle'
+                      width='100px'
+                      height='100px'
+                    >
+                      New
+                    </span>
+                  ) : null}
                   {`${item.title} (${item.allergens})`}
                   {item.spicy ? (
                     <span className='pepper text-danger px-1'>🌶</span>

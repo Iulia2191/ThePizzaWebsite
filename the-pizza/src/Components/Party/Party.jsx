@@ -7,7 +7,7 @@ function Party () {
     }
   return (
     <div className='party'>
-         <h2 className='party-events py-5'>Veranstaltungen</h2>
+         <h2 className='party-events'>Veranstaltungen</h2>
       <div className='party-container py-3'>
         <h2>LUST AUF EINE PIZZAPARTY?</h2>
         <p>
@@ -16,7 +16,7 @@ function Party () {
         </p>
         <p>Buchen Sie uns für Ihre private Veranstaltung!</p>
         <Link to='/contact'>
-        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3 text-light">Kontakt</button>
+        <button  onClick={scrollToTop} type="button" className="btn btn-warning mb-5 text-light">Kontakt</button>
         </Link>
       </div>
     </div>
