@@ -7,7 +7,7 @@ function Party () {
     }
   return (
     <div className='party'>
-         <h2 className='party-events'>Veranstaltungen</h2>
+         <h2 className='party-events py-5'>Veranstaltungen</h2>
       <div className='party-container py-5'>
         <h2>LUST AUF EINE PIZZAPARTY?</h2>
         <p>
