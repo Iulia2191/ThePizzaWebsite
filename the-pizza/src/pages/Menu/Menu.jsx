@@ -4,13 +4,16 @@ import './Menu.scss'
 
 function Menu() {
   return (
-    <div className="menu px-2">
+    <div className="menu">
       <div className="menu-title">
         <h2>Menü</h2>
       </div>
-      <div className="menu-text">
+      <div className="menu-text text-center">
+        <h4 className="text-light my-5">FÜR BESTELLUNGEN ZUM ABHOLEN - TEL: 06601711525</h4>
         <List/>
+        
       </div>
+      
       </div>
   )
 }
