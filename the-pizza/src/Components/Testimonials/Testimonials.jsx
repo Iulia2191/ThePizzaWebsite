@@ -1,5 +1,5 @@
 
-import './Testimonials.css'
+import './Testimonials.scss'
 import Testimonial from '../Carousel/Carousel'
 
 function Testimonials () {

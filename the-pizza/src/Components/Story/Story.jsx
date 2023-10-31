@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './story.css'
+import './Story.scss'
 
 function Story () {
   const scrollToTop = () => {

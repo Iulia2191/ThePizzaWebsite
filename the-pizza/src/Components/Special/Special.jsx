@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './Special.css'
+import './Special.scss'
 
 function Special () {
   const scrollToTop = () => {

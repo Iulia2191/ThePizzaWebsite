@@ -1,0 +1,24 @@
+$main-bg-color: #0b1519;
+$text-color: white;
+$title-bg-image: url('../img/about.jpg');
+$shadow-color: #530b0e;
+$title-font: "Special Elite", sans-serif;
+
+
+.party{
+    text-align: center;
+    background-color: $main-bg-color;
+    color: $text-color;
+    .party-events{
+        text-transform: uppercase;
+        font-family: $title-font;
+        color: $text-color;
+.party-container{
+    padding-bottom: 30px;
+    h2{
+        font-size: 30px;
+        
+    }
+}
+    }
+}

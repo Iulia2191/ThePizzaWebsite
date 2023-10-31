@@ -6,6 +6,7 @@
   height: 110vh;
   margin-top: 0;
 }
+
 .cta-text {
   padding-top: 250px;
   color: white;
@@ -14,7 +15,11 @@
   font-weight: 400;
   animation-duration: 3s;
   animation-name: fadeAndScale;
+  h1{
+    font-size: 60px;
+  }
 }
+
 @keyframes easeIn {
   from {
     margin-left: 0px;
@@ -23,6 +28,7 @@
     margin-left: 30px;
   }
 }
+
 @keyframes fadeAndScale {
   from {
     opacity: 0;
@@ -34,14 +40,16 @@
   }
 }
 
-button{
+button {
   font-family: sans-serif !important;
 }
-@media(max-width:700px){
-  .cta{
+
+@media (max-width: 700px) {
+  .cta {
     height: min-content;
   }
-  .cta-text{
+
+  .cta-text {
     padding-top: 90px;
     padding-bottom: 50px;
   }

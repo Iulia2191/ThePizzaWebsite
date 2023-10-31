@@ -1,4 +1,4 @@
-import './Prosciutto.css'
+import './Prosciutto.scss'
 function Prosciutto () {
   return (
     <div className='prosciutto'>

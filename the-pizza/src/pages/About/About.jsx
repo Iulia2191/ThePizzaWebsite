@@ -1,5 +1,5 @@
 import { FaFacebook } from 'react-icons/fa'
-import './About.css'
+import './About.scss'
 function About () {
   return (
     <div className='about'>

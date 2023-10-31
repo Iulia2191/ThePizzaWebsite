@@ -1,5 +1,5 @@
 
-import './Hero.css'
+import './Hero.scss'
 import { Link } from 'react-router-dom'
 
 function Hero () {
@@ -13,7 +13,7 @@ function Hero () {
         <h2>Napolitan Style Pizza</h2>
         <h4>Original Napolitanishe Pizza in Ybbs an Der Donau</h4>
         <Link to='/menu'>
-        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3">Entdeken Unsere Menü</button>
+        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3">Unsere Speisekarte</button>
         </Link>
       </div>
     </div>
