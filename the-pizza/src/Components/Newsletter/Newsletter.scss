@@ -17,7 +17,7 @@ $title-font: "Special Elite", sans-serif;
 
     p {
       font-size: 20px;
-      font-family: "Special Elite", sans-serif;;
+      font-family: "Special Elite", sans-serif;
     }
     input {
       width: 100%;
@@ -26,10 +26,23 @@ $title-font: "Special Elite", sans-serif;
       margin-top: 10px;
     }
     button {
-    width: 100%;
+      width: 100%;
       padding: 10px !important;
       color: white;
       border: none;
+    }
+  }
+}
+@media (max-width: 724px) {
+  .newsletter {
+    text-align: center;
+    .wrapper {
+      input {
+        width: 80%;
+      }
+      button {
+        width: 80%;
+      }
     }
   }
 }
