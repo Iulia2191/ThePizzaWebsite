@@ -1,0 +1,92 @@
+:root {
+    --background1: #454545;
+    --text-color: whitesmoke;
+    --text-color2: #f3c376;
+    --bg-color2: #222222;
+    --bg-color3: #edede9;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url(../img/background-contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-section {
+    max-width: 100%;
+    margin-bottom: 100px;
+    width: fit-content;
+    max-height: max-content;
+    margin-top: 150px;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.8)
+    );
+    border-radius: 25px;
+  }
+  
+  .contact-name,
+  .contact-email,
+  .contact-message {
+    z-index: 5;
+    max-width: 100%;
+    width: 400px;
+    border: 1px solid var(--text-color2);
+    color: var(--bg-color2);
+    background-color: transparent;
+    padding: 10px;
+  }
+  .btn-contact {
+    z-index: 5;
+    cursor: pointer;
+    background-color: var(--text-color2);
+  }
+  ::placeholder {
+    color: var(--bg-color2);
+  }
+  .contact-text h2 {
+    color: var(--text-color2);
+  }
+  .contact-text {
+    color: var(--background1);
+  }
+  .ct-number,
+  .ct-location,
+  .ct-email {
+    color: var(--background1);
+    vertical-align: middle;
+  }
+  
+  .message-container {
+    font-size: 20px;
+    opacity: 0;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    left: 0px;
+  }
+  
+  #characterCount {
+    position: absolute;
+    right: 45px;
+    bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-form-section {
+      margin-top: 100px;
+    }
+    .message-container {
+      position: relative;
+      top: -300px;
+    }
+  }
+  
