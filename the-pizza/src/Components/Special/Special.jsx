@@ -20,7 +20,7 @@ function Special () {
             fluffigem Rand und mit einer fruchtigen Tomatensauce bestrichen.
           </p>
           <Link to='/prosciutto'>
-            <button onClick={scrollToTop} type='button' className='btn btn-warning my-3'>
+            <button onClick={scrollToTop} type='button' className='btn btn-warning my-3 text-light'>
               Finde mehr heraus
             </button>
           </Link>

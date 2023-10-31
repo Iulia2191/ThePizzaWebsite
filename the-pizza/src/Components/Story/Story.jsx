@@ -20,7 +20,7 @@ function Story () {
               begrüßen zu dürfen, wo die Pizza-Kultur zum Leben erweckt wird.{' '}
             </p>
             <Link to='/about'>
-              <button onClick={scrollToTop} type='button' className='btn btn-warning my-3'>
+              <button onClick={scrollToTop} type='button' className='btn btn-warning my-3 text-light'>
                 Mehr lesen
               </button>
             </Link>

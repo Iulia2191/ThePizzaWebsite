@@ -16,7 +16,7 @@ function Party () {
         </p>
         <p>Buchen Sie uns für Ihre private Veranstaltung!</p>
         <Link to='/contact'>
-        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3">Kontakt</button>
+        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3 text-light">Kontakt</button>
         </Link>
       </div>
     </div>

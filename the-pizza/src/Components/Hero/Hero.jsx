@@ -13,7 +13,7 @@ function Hero () {
         <h2>Napolitan Style Pizza</h2>
         <h4>Original Napolitanishe Pizza in Ybbs an Der Donau</h4>
         <Link to='/menu'>
-        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3">Unsere Speisekarte</button>
+        <button  onClick={scrollToTop} type="button" className="btn btn-warning my-3 text-light">Unsere Speisekarte</button>
         </Link>
       </div>
     </div>
