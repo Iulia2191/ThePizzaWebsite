@@ -6,9 +6,9 @@ function Party () {
         window.scrollTo(0, 0)
     }
   return (
-    <div className='party pt-5'>
+    <div className='party pt-lg-2'>
          <h2 className='party-events'>Veranstaltungen</h2>
-      <div className='party-container py-3'>
+      <div className='party-container py-3 py-lg-1'>
         <h2>LUST AUF EINE PIZZAPARTY?</h2>
         <p>
           Möchten Sie eine unvergessliche Pizza-Party für sich und Ihre Gäste

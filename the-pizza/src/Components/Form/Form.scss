@@ -1,0 +1,56 @@
+$fs-large: 1rem;
+$fs-medium: 0.875rem;
+$fs-small: 0.75rem;
+
+$spacing-xl: 2.625rem;
+$spacing-large: 1.75rem;
+$spacing-medium: 1rem;
+$spacing-small: 0.5rem;
+$spacing-tiny: 0.25rem;
+
+$mobile-logo-height: 45px;
+
+$imagine1-size: 150px;
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: $spacing-medium;
+   p, a, label, input, textarea {
+        font-size: $fs-medium;
+      }
+      a:hover {
+            color: gray;
+          }
+
+          label {
+                margin-bottom: $spacing-tiny;
+              }
+            
+              input, textarea {
+                padding: $spacing-small;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                margin-bottom: $spacing-medium;
+              }
+            
+              input:focus, textarea:focus {
+                border-color: #8e8e8e;
+                outline: none;
+              }
+            
+              textarea {
+                font-family: inherit;
+                height: 100px;
+              }
+            
+              input[type="submit"] {
+                font-size: $fs-medium;
+                text-align: center;
+                color: white;
+                border-radius: 5px;
+                padding: $spacing-small;
+                width: 100px;
+              }
+}
