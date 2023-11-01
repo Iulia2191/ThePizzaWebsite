@@ -7,10 +7,10 @@ function Location () {
     }
   return (
     <div className='location pt-5'>
-      <div className='location-title pb-3'>
+      <div className='location-title pb-5'>
         <h2>Komm und schnapp dir ein Stück!</h2>
       </div>
-      <div className='map'>
+      <div className='map pb-5'>
         <div className='map-text'>
           <div className='col2'>
             <p>
@@ -41,9 +41,10 @@ function Location () {
           height='450'
           allowfullscreen=''
           loading='lazy'
+          className='px-2'
         ></iframe>
       </div>
-      <span className='material-symbols-outlined pt-5 arrow' onClick={scrollToTop}>
+      <span className='material-symbols-outlined py-5 py-lg-2 arrow' onClick={scrollToTop}>
         keyboard_double_arrow_up
       </span>
     </div>

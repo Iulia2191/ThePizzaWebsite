@@ -6,7 +6,7 @@ function Newsletter () {
       <div className='wrapper'>
         <p>In die Mailing liste eintragen</p>
         <div className='mail'>
-          <input type='text' placeholder='E-Mail-Adresse hier eingeben*' />
+          <input type='text' placeholder='E-Mail-Adresse hier eingeben*' id="email" autoComplete="on" />
           <button type="button" className="btn btn-warning my-2">Jetzt abbonnieren</button>
         </div>
         

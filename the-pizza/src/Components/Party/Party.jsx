@@ -8,7 +8,7 @@ function Party () {
   return (
     <div className='party pt-5'>
          <h2 className='party-events'>Veranstaltungen</h2>
-      <div className='party-container py-3 py-lg-1'>
+      <div className='party-container py-5'>
         <h2>LUST AUF EINE PIZZAPARTY?</h2>
         <p>
           Möchten Sie eine unvergessliche Pizza-Party für sich und Ihre Gäste

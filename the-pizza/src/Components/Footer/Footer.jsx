@@ -1,6 +1,6 @@
 import Newsletter from '../Newsletter/Newsletter'
 import './Footer.scss'
-// import { FaFacebook } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 
 function Footer () {
   return (
@@ -9,6 +9,14 @@ function Footer () {
           <div className='col1'>
             <h3 className='title'>The Pizza</h3>
             <h4 className='nap'>Napolitan Style Pizza</h4>
+            <p>
+              <a href='https://www.facebook.com/profile.php?id=61552396569253'>
+                <span className='facebook mr-3'>
+                  <FaFacebook />
+                </span>
+              </a>
+              Termine werden immer aktuell auf Facebook veröffentlicht.
+            </p>
           </div>
           {/* <div className='col2'>
             <p>
