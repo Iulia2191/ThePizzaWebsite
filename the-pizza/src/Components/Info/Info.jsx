@@ -33,7 +33,7 @@ function Info() {
                   <span className='material-icons pr-1'> location_on </span>
                   Addrese:
                 </p>
-                <p className='description pl-1'>
+                <p className='description'>
                   Bahnhofstraße 24, Parkplatz Ecke Farben Morscher, Ybbs an Der Donau
                 </p>
               </li>

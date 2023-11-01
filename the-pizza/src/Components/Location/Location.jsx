@@ -6,11 +6,11 @@ function Location () {
         window.scrollTo(0, 0)
     }
   return (
-    <div className='location pt-5'>
+    <div className='location pt-5 px-2'>
       <div className='location-title pb-5'>
         <h2>Komm und schnapp dir ein Stück!</h2>
       </div>
-      <div className='map pb-5'>
+      <div className='map pb-5 '>
         <div className='map-text'>
           <div className='col2'>
             <p>

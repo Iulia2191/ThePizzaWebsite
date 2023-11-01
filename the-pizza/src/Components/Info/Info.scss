@@ -17,25 +17,25 @@ ul {
   flex-direction: column;
   width: 50%;
   padding: $spacing-medium;
- 
+
   li {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
     padding-bottom: $spacing-small;
     margin-bottom: $spacing-large;
     border-bottom: 1px solid #ddd;
-    
-a{
-    color: white;
-    text-decoration: none;
-}
 
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
   .material-icons {
     vertical-align: middle;
     color: white;
   }
   .contact a:hover {
-    color: #530B0E;
-}
+    color: #530b0e;
+  }
 }

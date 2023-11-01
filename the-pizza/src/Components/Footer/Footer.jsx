@@ -4,7 +4,7 @@ import { FaFacebook } from 'react-icons/fa'
 
 function Footer () {
   return (
-    <div className='footer pb-3'>
+    <div className='footer py-3'>
       <div className='footer-container'>
           <div className='col1'>
             <h3 className='title'>The Pizza</h3>

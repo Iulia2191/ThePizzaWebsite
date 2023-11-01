@@ -15,8 +15,7 @@ function Home () {
       <Party />
       <Special />
       <Testimonials />
-      <Location/>
-  
+      <Location />
     </div>
   )
 }

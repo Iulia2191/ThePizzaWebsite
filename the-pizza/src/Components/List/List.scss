@@ -1,10 +1,17 @@
-.list-h4{
+.list-title{
   position: relative;
 }
   .new{
     position: absolute;
     top: -20px;
-    left: 70px;
+    left: 100px;
     width: 60px;
+    transform: rotate(-20deg);
     
+  }
+
+  @media(max-width:724px){
+    .new{
+      left: 0px;
+    }
   }

@@ -114,7 +114,7 @@ function List () {
     }
   ]
   return (
-    <div className='list py-3 text-light'>
+    <div className='list py-3 text-light px-2'>
       {data.map(item => (
         <div className='list-item py-3' key={item.id}>
           <div className='row list-row d-flex'>
