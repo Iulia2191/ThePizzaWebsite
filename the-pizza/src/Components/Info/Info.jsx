@@ -16,7 +16,7 @@ function Info() {
                   <span className='material-icons'> email </span>
                   E-mail:
                 </p>
-                <a href='mailto:office@itschool.ro'>thepizza1@yahoo.com</a>
+                <a href='mailto:thepizza1@yahoo.com'>thepizza1@yahoo.com</a>
               </li>
               <li>
                 <p>
@@ -30,12 +30,11 @@ function Info() {
 
               <li>
                 <p>
-                  <span className='material-icons'> location_on </span>
+                  <span className='material-icons pr-1'> location_on </span>
                   Addrese:
                 </p>
-                <p className='description'>
-                  Bahnhofstraße 24, Parkplatz Ecke Farben Morscher, Ybbs an Der
-                  Donau
+                <p className='description pl-1'>
+                  Bahnhofstraße 24, Parkplatz Ecke Farben Morscher, Ybbs an Der Donau
                 </p>
               </li>
             </ul>

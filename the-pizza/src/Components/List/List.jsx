@@ -109,7 +109,7 @@ function List () {
         'Fruchtige Tomatensauce, Parmigiano Reggiano, Basilikum, Fior di Latte, Spinat, Feta, knuspriger Bacon und Knoblauchöl',
       allergens: 'A, G',
       spicy: false,
-      price: '12 €',
+      price: '13 €',
       isNew: true
     }
   ]
