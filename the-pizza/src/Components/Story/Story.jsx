@@ -7,7 +7,7 @@ function Story () {
 }
   return (
     <div className='story pt-5 px-5'>
-      <h2 className='text-center text-light py-3'>UNSERE GESCHICHTE</h2>
+      <h2 className='text-center text-light'>UNSERE GESCHICHTE</h2>
       <div className='story-container container-fluid '>
         <div className='row'>
           <div className='story-img img1 col-12 col-xl-4 col-lg-4'>
