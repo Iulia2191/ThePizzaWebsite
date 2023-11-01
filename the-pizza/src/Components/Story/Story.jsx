@@ -11,7 +11,7 @@ function Story () {
       <div className='story-container container-fluid '>
         <div className='row'>
           <div className='story-img img1 col-12 col-xl-4 col-lg-4'>
-            <img src='../img/salami.jpg' alt='Pizza Salami' />
+            <img src='../img/story.jpg' alt='Pizza Salami' />
           </div>
           <div className='col-12 col-xl-4 col-lg-4 story-text px-5 d-flex flex-column justify-content-center align-items-center'>
             <h4>TRADITIONELL & MODERN</h4>

@@ -1,5 +1,3 @@
-
-
 function Contact() {
   return (
     <div className="contact-form-section mx-auto">
@@ -23,46 +21,42 @@ function Contact() {
             </div>
           </div>
           <div className="col-sm-12 col-md-6 col-lg-6">
-            <form className="contact-form" onSubmit={this.handleSubmit}>
+            <form className="contact-form">
               <input
                 className="contact-name my-3"
                 type="text"
                 placeholder="Numele tău"
                 name="userName"
-                value={this.state.userName}
-                onChange={this.handleInputChange}
+                
               />
-              <div id="name-error-message">{this.state.nameErrorMessage}</div>
+              <div id="name-error-message"></div>
               <input
                 className="contact-email my-3"
                 type="email"
                 placeholder="Email-ul tău"
                 name="email"
-                value={this.state.email}
-                onChange={this.handleInputChange}
+                
               />
-              <div id="email-error-message">{this.state.emailErrorMessage}</div>
+              <div id="email-error-message"></div>
               <textarea
                 className="contact-message my-3"
                 placeholder="Mesajul tău..."
                 name="message"
-                value={this.state.message}
-                onChange={this.handleInputChange}
+               
                 rows="4"
               />
-              <span id="characterCount">{this.state.characterCount}/20</span>
-              <div id="message-error-message">{this.state.messageErrorMessage}</div>
+              <span id="characterCount">/20</span>
+              <div id="message-error-message"></div>
               <button className="btn btn-contact" type="submit">Trimite mesajul</button>
             </form>
           </div>
         </div>
         <div className="message-container">
-          <p>Mesajul dumneavoastra a fost inregistrat. Va vom contacta in cel mai scurt timp posibil! 👏</p>
+          <p>Mesajul dumneavoastra a fost înregistrat. Vă vom contacta în cel mai scurt timp posibil! 👏</p>
         </div>
       </div>
     </div>
   );
 }
-}
 
-export default Contact
+export default Contact;

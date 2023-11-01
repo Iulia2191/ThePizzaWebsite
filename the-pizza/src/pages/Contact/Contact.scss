@@ -1,24 +1,4 @@
-:root {
-    --background1: #454545;
-    --text-color: whitesmoke;
-    --text-color2: #f3c376;
-    --bg-color2: #222222;
-    --bg-color3: #edede9;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background-image: url(../img/background-contact.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+
   .contact-form-section {
     max-width: 100%;
     margin-bottom: 100px;

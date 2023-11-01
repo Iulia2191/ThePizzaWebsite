@@ -31,23 +31,6 @@
         padding: 10px;
       }
     }
-    .img-container {
-      gap: 50px;
-      padding-bottom: 50px;
-    }
     
-    .img-container img {
-      width: 100%;
-      height: 500px;
-      object-fit: scale-down;
-    }
-    .img-container img:hover{
-      transform: scale(1.1);
-    }
-    @media (max-width: 850px) {
-      .img-container {
-        flex-direction: column;
-      }
-    }
 }
 }

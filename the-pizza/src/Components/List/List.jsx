@@ -35,7 +35,7 @@ function List () {
       img: '..img/salami.jpg',
       title: 'Salami',
       ingredients:
-        'Fructige Tomatensauce, Parmigiano, Fiori Di Latte, Salami , Basilicum',
+        'Fructige Tomatensauce, Parmigiano, Fiori Di Latte, Salami , Basilikum',
       allergens: 'A, G',
       spicy: false,
       price: '11 €'
@@ -99,6 +99,17 @@ function List () {
       allergens: 'A, G',
       spicy: false,
       price: '11 €',
+      isNew: true
+    },
+    {
+      id: 11,
+      img: '..img/salami.jpg',
+      title: 'Agli Spinaci',
+      ingredients:
+        'Fruchtige Tomatensauce, Parmigiano Reggiano, Basilikum, Fior di Latte, Spinat, Feta, knuspriger Bacon und Knoblauchöl',
+      allergens: 'A, G',
+      spicy: false,
+      price: '12 €',
       isNew: true
     }
   ]

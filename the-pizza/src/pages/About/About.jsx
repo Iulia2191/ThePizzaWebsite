@@ -50,11 +50,7 @@ function About () {
             </a>{' '}
           </p>
         </div>
-        <div className='img-container px-2 d-flex'>
-          <img src='../img/salami.jpg' alt='Salami Pizza' />
-
-          <img src='../img/oven.jpg' alt='Pizza Oven' />
-        </div>
+       
       </div>
     </div>
   )
