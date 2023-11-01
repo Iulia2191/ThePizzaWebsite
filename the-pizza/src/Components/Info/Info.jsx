@@ -34,8 +34,7 @@ function Info() {
                   Addrese:
                 </p>
                 <p className='description'>
-                  Bahnhofstraße 24, Parkplatz Ecke Farben Morscher, Ybbs an Der
-                  Donau
+                  Bahnhofstraße 24, Parkplatz Ecke Farben Morscher, Ybbs an Der Donau
                 </p>
               </li>
             </ul>
