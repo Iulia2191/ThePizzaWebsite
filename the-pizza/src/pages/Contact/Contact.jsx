@@ -1,62 +1,76 @@
-function Contact() {
+import './Contact.scss'
+function Contact () {
   return (
-    <div className="contact-form-section mx-auto">
-      <div className="container">
-        <div className="row py-3 contact-form-container">
-          <div className="col-sm-12 col-md-6 col-lg-6">
-            <div className="container contact-text">
-              <h2 className="my-3">Contactează-ne</h2>
-              <p className="my-3">Dacă ai întrebări ne găsești datele de contact de mai jos, sau poți să ne lași un mesaj completând formularul.</p>
-              <span className="material-symbols-outlined ct-number my-2 mr-4">phone_iphone</span>
-              <span className="my-2">+402222222222</span>
-              <br />
-              <span className="material-symbols-outlined ct-location my-2 mr-4">location_on</span>
-              <span className="my-2">Strada Principala, nr. 10, Cluj-Napoca</span>
-              <br />
-              <span className="material-symbols-outlined ct-email my-2 mr-4">mail</span>
-              <span className="my-2">
-                <a href="mailto:iboacaniciu@gamial.com" style={{ color: 'black' }}>ibocaniciu@gmail.com</a>
-              </span>
-              <br />
-            </div>
+    <>
+      <div className='contact'>
+        <div className='contact-container'>
+          <div className='contact-title'>
+            <h2>Kontaktiere uns</h2>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6">
-            <form className="contact-form">
+
+          <div className='container-fluid'>
+            <p className='main-paragraph pt-5 text-center h5'>
+              Wenn Sie Fragen oder Anregungen haben oder uns einfach eine
+              Nachricht hinterlassen möchten, bitten wir Sie, Ihre Informationen
+              unten einzutragen.
+            </p>
+            <p className='main-paragraph h5'>Sie finden uns unter:</p>
+          </div>
+          <div className='contact-wrapper'>
+            <ul>
+              <li>
+                <p>
+                  <span className='material-icons'> phone_iphone </span>
+                  Mobil:
+                </p>
+                <a href='tel:0040737880420'>+43 660 1711525</a>
+              </li>
+              <li>
+                <p>
+                  <span className='material-icons'> email </span>
+                  E-mail:
+                </p>
+                <a href='mailto:office@itschool.ro'>thepizza1@yahoo.com</a>
+              </li>
+              <li>
+                <p>
+                  <span className='material-icons'> facebook </span>
+                  Facebook:
+                </p>
+                <a href='https://www.facebook.com/profile.php?id=61552396569253'>
+                  /The Pizza
+                </a>
+              </li>
+
+              <li>
+                <p>
+                  <span className='material-icons'> location_on </span>
+                  Addrese:
+                </p>
+                <p className='description'>
+                  Bahnhofstraße 24, Parkplatz Ecke Farben Morscher, Ybbs an Der
+                  Donau
+                </p>
+              </li>
+            </ul>
+            <form className='contact-form'>
+              <label htmlFor='name'>Name und Nachname:</label>
+              <input type='text' placeholder='z.B. Müller Anna' id='name' />
+              <label htmlFor='email'>E-Mail-Adresse:</label>
               <input
-                className="contact-name my-3"
-                type="text"
-                placeholder="Numele tău"
-                name="userName"
-                
+                type='email'
+                placeholder='z.B. email@email.com'
+                id='email'
               />
-              <div id="name-error-message"></div>
-              <input
-                className="contact-email my-3"
-                type="email"
-                placeholder="Email-ul tău"
-                name="email"
-                
-              />
-              <div id="email-error-message"></div>
-              <textarea
-                className="contact-message my-3"
-                placeholder="Mesajul tău..."
-                name="message"
-               
-                rows="4"
-              />
-              <span id="characterCount">/20</span>
-              <div id="message-error-message"></div>
-              <button className="btn btn-contact" type="submit">Trimite mesajul</button>
+              <label htmlFor='message'>Ihre Nachricht:</label>
+              <textarea id='message'></textarea>
+              <button className='btn btn-warning'>Senden</button>
             </form>
           </div>
         </div>
-        <div className="message-container">
-          <p>Mesajul dumneavoastra a fost înregistrat. Vă vom contacta în cel mai scurt timp posibil! 👏</p>
-        </div>
       </div>
-    </div>
-  );
+    </>
+  )
 }
 
-export default Contact;
+export default Contact
