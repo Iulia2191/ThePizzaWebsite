@@ -4,7 +4,7 @@ import './Contact.scss'
 function Contact () {
   return (
     <>
-      <div className='contact'>
+      <div className='contact pb-3'>
         <div className='contact-container'>
           <div className='contact-title'>
             <h2>Kontaktiere uns</h2>
