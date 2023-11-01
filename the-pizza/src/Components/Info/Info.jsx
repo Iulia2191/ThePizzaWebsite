@@ -16,7 +16,7 @@ function Info() {
                   <span className='material-icons'> email </span>
                   E-mail:
                 </p>
-                <a href='mailto:office@itschool.ro'>thepizza1@yahoo.com</a>
+                <a href='mailto:thepizza1@yahoo.com'>thepizza1@yahoo.com</a>
               </li>
               <li>
                 <p>
