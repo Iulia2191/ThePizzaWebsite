@@ -8,17 +8,13 @@ $title-font: "Special Elite", sans-serif;
   color: white;
   display: flex;
   justify-content: center;
+  height: max-content;
 
   .wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    p {
-      font-size: 20px;
-      font-family: "Special Elite", sans-serif;
-    }
     input {
       width: 100%;
       padding: 10px !important;

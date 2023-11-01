@@ -6,7 +6,7 @@ function Special () {
     window.scrollTo(0, 0)
 }
   return (
-    <div className='special text-center'>
+    <div className='special text-center pt-5'>
       <h2 className='pb-3'>Heutige Spezialität</h2>
       <div className='special-container '>
         <div className='special-img'>

@@ -1,43 +1,43 @@
-.footer{
-    min-height: 30vh;
-    background-color: #0b1519;
-    color: white;
-    margin: auto;
-}
-.title{
-    font-family: "Special Elite", sans-serif;
-    // color: #530B0E;
-    color: white;
-}
-.nap{
-    font-family: "Special Elite", sans-serif;
-    // color: #530B0E;
-    color: white;
-}
-span{
-    vertical-align: middle;
-}
-.facebook{
-    vertical-align:baseline;
-   font-size: 20px;
-   padding-right: 10px;
-}
-
-.footer-container{
+.footer {
+  min-height: max-content;
+  background-color: #0b1519;
+  color: white;
+  margin: auto;
+  .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-.col1{
-    align-self: center;
+    .col1 {
+      align-self: center;
+
+      .title {
+        font-family: "Special Elite", sans-serif;
+        // color: #530B0E;
+        color: white;
+      }
+      .nap {
+        font-family: "Special Elite", sans-serif;
+        // color: #530B0E;
+        color: white;
+      }
+    }
+    span {
+      vertical-align: middle;
+      
+    }
+    .facebook {
+      vertical-align: baseline;
+      font-size: 20px;
+      padding-right: 10px;
+    }
+  }
 }
 
-@media(max-width:924px){
-    .footer-container{
-        flex-direction: column;
-    }
-    .col1{
-       text-align: center;
-    }
-    
+@media (max-width: 924px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .col1 {
+    text-align: center;
+  }
 }

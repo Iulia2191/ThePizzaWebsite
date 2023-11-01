@@ -1,15 +1,16 @@
+import Newsletter from '../Newsletter/Newsletter'
 import './Footer.scss'
-import { FaFacebook } from 'react-icons/fa'
+// import { FaFacebook } from 'react-icons/fa'
 
 function Footer () {
   return (
-    <div className='footer py-3'>
-      <div className='container-fluid footer-container'>
+    <div className='footer pb-3'>
+      <div className='footer-container'>
           <div className='col1'>
             <h3 className='title'>The Pizza</h3>
             <h4 className='nap'>Napolitan Style Pizza</h4>
           </div>
-          <div className='col2'>
+          {/* <div className='col2'>
             <p>
               <span className='material-symbols-outlined px-2'>
                 location_on
@@ -30,8 +31,11 @@ function Footer () {
               </a>
               Termine werden immer aktuell gepostet
             </p>
-        
-        </div>
+           
+        </div> */}
+        <div className='col3'>
+              <Newsletter/>
+            </div>
       </div>
       <p className='text-center py-2'>
         &#169; Copyright 2023 The Pizza. All Rights Reserved

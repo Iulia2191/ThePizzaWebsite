@@ -1,0 +1,46 @@
+.location {
+  min-height: max-content;
+  background-color: #0b1519;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .arrow {
+    font-size: 50px;
+    cursor: pointer;
+  }
+  h2 {
+    font-family: "Special Elite", sans-serif;
+    text-transform: uppercase;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    .map-text {
+      align-self: center;
+    }
+    span {
+      vertical-align: middle;
+    }
+    .facebook {
+      vertical-align: baseline;
+      font-size: 20px;
+      padding-right: 10px;
+    }
+    iframe {
+      max-width: 100%;
+      width: 500px;
+      height: 200px;
+    }
+  }
+}
+@media(max-width:724px){
+    .location{
+       .map{
+        flex-direction: column;
+       }
+    }
+}
