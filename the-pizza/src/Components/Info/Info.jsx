@@ -30,7 +30,7 @@ function Info() {
 
               <li>
                 <p>
-                  <span className='material-icons'> location_on </span>
+                  <span className='material-icons pr-1'> location_on </span>
                   Addrese:
                 </p>
                 <p className='description'>
