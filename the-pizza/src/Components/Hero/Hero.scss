@@ -46,11 +46,11 @@ button {
 
 @media (max-width: 924px) {
   .cta {
-    height: 80vh;
+    height: max-content;
   }
 
   .cta-text {
-    padding-top: 130px;
+    padding-top: 90px;
     padding-bottom: 50px;
     h1{
       font-size: 35px;
