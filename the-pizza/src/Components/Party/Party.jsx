@@ -6,7 +6,7 @@ function Party () {
         window.scrollTo(0, 0)
     }
   return (
-    <div className='party'>
+    <div className='party pt-5'>
          <h2 className='party-events'>Veranstaltungen</h2>
       <div className='party-container py-3'>
         <h2>LUST AUF EINE PIZZAPARTY?</h2>
