@@ -17,7 +17,7 @@ function Hero () {
       opacity: 1,
       y: -10,
       ease: Power3.easeOut,
-      delay: 0.3,
+      delay: 0.4,
       
     })
   }, [])
@@ -27,7 +27,7 @@ function Hero () {
       y: -10,
       ease: Power3.easeOut,
    
-      delay: 0.5
+      delay: 0.6
     })
   }, [])
   useEffect(() => {
@@ -35,7 +35,7 @@ function Hero () {
       opacity: 1,
       y: -10,
       ease: Power3.easeOut,
-      delay: 0.7,
+      delay: 0.8,
   
     })
   }, [])
