@@ -14,9 +14,15 @@
   font-style: normal;
   font-weight: 600;
   animation-duration: 3s;
-  animation-name: fadeAndScale;
-  h1{
-    font-size: 60px;
+  // animation-name: fadeAndScale;
+ 
+
+  .logo{
+    font-size: 40px;
+    opacity: 0;
+  }
+  .hero-text{
+    opacity: 0;
   }
 }
 

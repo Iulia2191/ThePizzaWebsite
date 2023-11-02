@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom'
 import './Story.scss'
 
+
 function Story () {
+
   const scrollToTop = () => {
     window.scrollTo(0, 0)
 }
+  
   return (
-    <div className='story pt-5 px-5'>
-      <h2 className='text-center text-light pb-3'>UNSERE GESCHICHTE</h2>
+    <div className='story pt-5 px-5' >
+      <h2 className='text-center text-light pb-3 story-title' >UNSERE GESCHICHTE</h2>
       <div className='story-container container-fluid '>
         <div className='row'>
           <div className='story-img img1 col-12 col-xl-4 col-lg-4'>
