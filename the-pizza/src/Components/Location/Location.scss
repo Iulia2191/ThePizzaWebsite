@@ -6,7 +6,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  
   .arrow {
     font-size: 50px;
     cursor: pointer;
@@ -14,6 +14,7 @@
   h2 {
     font-family: "Special Elite", sans-serif;
     text-transform: uppercase;
+    text-align: center;
   }
   .map {
     display: flex;
