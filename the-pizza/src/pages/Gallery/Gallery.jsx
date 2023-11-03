@@ -4,6 +4,7 @@ import './Gallery.scss'
 
 function Gallery () {
   const [file, setfile] = useState(null)
+  
   return (
     <div className='gallery'>
       <div className='gallery-container'>
@@ -11,7 +12,7 @@ function Gallery () {
           <h2>GALERIE</h2>
         </div>
 
-        <div className='media-container px-2'>
+        <div className='media-container px-2 py-3'>
           {Media.map((file, index) => (
             <div className='media' key={index} onClick={() => setfile(file)}>
               {file.type === 'img' ? (

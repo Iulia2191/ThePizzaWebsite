@@ -1,20 +1,18 @@
 .navbar-collapse {
-    flex-grow: 0 !important;
-    z-index: 3;
-    color: white !important;
-
-   
+  flex-grow: 0 !important;
+  z-index: 3;
+  color: white !important;
 }
 
-.nav-menu{
-    background-color: white!important;
+.nav-menu {
+  background-color: white !important;
 }
 
 .scrolling {
-    background-color: #0b1519 !important;
-  }
-  .navbar-nav{
-    text-shadow: 2px 2px 3px #530B0E !important;
-    font-weight: 600 !important;
-   
-  }
+  background-color: #0b1519 !important;
+}
+.navbar-nav {
+  text-shadow: 2px 2px 3px #530b0e !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem;
+}
