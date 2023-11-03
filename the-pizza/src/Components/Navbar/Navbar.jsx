@@ -11,7 +11,7 @@ export function Header() {
 
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY > 0) {
+      if (window.scrollY > 30) {
         setScrolling(true);
       } else {
         setScrolling(false);

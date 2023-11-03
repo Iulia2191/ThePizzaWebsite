@@ -13,29 +13,28 @@ function Hero () {
   let textItem2 = useRef(null)
 
   useEffect(() => {
-    TweenMax.to(logoItem, 0.8, {
+    TweenMax.to(logoItem, 0.9, {
       opacity: 1,
-      y: -10,
+      y: -20,
       ease: Power3.easeOut,
-      delay: 0.3,
+      delay: 0.2,
       
     })
   }, [])
   useEffect(() => {
     TweenMax.to(textItem, 0.8, {
       opacity: 1,
-      y: -10,
+      y: -20,
       ease: Power3.easeOut,
-   
-      delay: 0.5
+      delay: 0.3
     })
   }, [])
   useEffect(() => {
     TweenMax.to(textItem2, 0.8, {
       opacity: 1,
-      y: -10,
+      y: -20,
       ease: Power3.easeOut,
-      delay: 0.7,
+      delay: 0.4,
   
     })
   }, [])

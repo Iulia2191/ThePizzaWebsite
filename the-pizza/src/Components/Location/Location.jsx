@@ -2,9 +2,9 @@ import './Location.scss'
 import { FaFacebook } from 'react-icons/fa'
 
 function Location () {
-    const scrollToTop = () => {
-        window.scrollTo(0, 0)
-    }
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+  }
   return (
     <div className='location pt-5 px-2'>
       <div className='location-title pb-5'>
@@ -39,12 +39,15 @@ function Location () {
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.982940665304!2d15.083345943439312!3d48.16841004651183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47724308f922c39b%3A0x237ecaded1fd12ea!2sBahnhofstra%C3%9Fe%2024%2C%203370%20Ybbs%20an%20der%20Donau!5e0!3m2!1sen!2sat!4v1698860360070!5m2!1sen!2sat'
           width='600'
           height='450'
-          allowfullscreen=''
+          allowFullScreen
           loading='lazy'
           className='px-2'
         ></iframe>
       </div>
-      <span className='material-symbols-outlined py-5 py-lg-2 arrow' onClick={scrollToTop}>
+      <span
+        className='material-symbols-outlined py-5 py-lg-2 arrow'
+        onClick={scrollToTop}
+      >
         keyboard_double_arrow_up
       </span>
     </div>

@@ -1,0 +1,45 @@
+.gallery {
+  min-height: max-content;
+  position: relative;
+  background-color: #0b1519;
+  padding-bottom: 20px;
+  .gallery-container {
+    .gallery-title {
+      background-image: url("../img/about.jpg");
+      background-size: cover;
+      height: 45vh;
+      padding-top: 120px;
+      text-align: center;
+      font-family: "Special Elite", sans-serif;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 2px 2px 3px #530b0e;
+    }
+    .media-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 15px;
+      margin: 20px auto;
+      
+.media{
+    height: 220px;
+    width: 100%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    cursor: pointer;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 0.3s linear;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+    }
+  }
+}
