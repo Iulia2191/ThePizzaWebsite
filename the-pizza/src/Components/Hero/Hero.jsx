@@ -11,6 +11,7 @@ function Hero () {
   let logoItem = useRef(null)
   let textItem = useRef(null)
   let textItem2 = useRef(null)
+  let buttonItem = useRef(null)
 
   useEffect(() => {
     TweenMax.to(logoItem, 0.9, {
@@ -36,6 +37,15 @@ function Hero () {
       y: -20,
       ease: Power3.easeOut,
       delay: 0.7,
+  
+    })
+  }, [])
+  useEffect(() => {
+    TweenMax.to(buttonItem, 0.8, {
+      opacity: 1,
+      y: -20,
+      ease: Power3.easeOut,
+      delay: 0.9,
   
     })
   }, [])
@@ -72,6 +82,9 @@ function Hero () {
             onClick={scrollToTop}
             type='button'
             className='btn btn-warning my-3 text-light'
+            ref={el => {
+              buttonItem = el
+            }}
           >
             Unsere Speisekarte
           </button>
