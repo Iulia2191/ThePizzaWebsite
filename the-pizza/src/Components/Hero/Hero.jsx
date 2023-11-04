@@ -1,4 +1,4 @@
-import './Hero.scss'
+noimport './Hero.scss'
 import { Link } from 'react-router-dom'
 import { TweenMax, Power3 } from 'gsap'
 import { useEffect, useRef } from 'react'
@@ -73,7 +73,7 @@ function Hero () {
           ref={el => {
             textItem2 = el
           }}
-          className='hero-text'
+          className='hero-text px-1'
         >
           Original Napolitanishe Pizza in Ybbs an Der Donau
         </h4>
