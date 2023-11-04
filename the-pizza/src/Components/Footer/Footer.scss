@@ -23,6 +23,7 @@
     }
     span {
       vertical-align: middle;
+
       
     }
     .facebook {
@@ -31,6 +32,13 @@
       padding-right: 10px;
     }
   }
+  color: white;
+  a{
+    text-decoration: none;
+    
+    color: white;
+  }
+ 
 }
 
 @media (max-width: 924px) {

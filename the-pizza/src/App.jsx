@@ -11,6 +11,7 @@ import Contact from './pages/Contact/Contact'
 import Gallery from "./pages/Gallery/Gallery";
 import Footer from "./Components/Footer/Footer";
 import Prosciutto from "./pages/Prosciutto/Prosciutto";
+import Credits from "./pages/Credits/Credits";
 
 const Layout = () =>{
   return (
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: '/prosciutto',
         element: <Prosciutto/>
+      },
+      {
+        path: '/Credits',
+        element: <Credits/>
       },
      
     ]

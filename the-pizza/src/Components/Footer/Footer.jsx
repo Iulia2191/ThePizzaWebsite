@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
 import Newsletter from '../Newsletter/Newsletter'
 import './Footer.scss'
 import { FaFacebook } from 'react-icons/fa'
+
 
 function Footer () {
   return (
@@ -45,9 +47,10 @@ function Footer () {
               <Newsletter/>
             </div>
       </div>
-      <p className='text-center py-2'>
-        &#169; Copyright 2023 The Pizza. All Rights Reserved
+      <p className='text-center'>
+        &#169; Copyright 2023 The Pizza. All Rights Reserved. <Link to='/credits'><span className='credits'>Photo Credits</span></Link>
       </p>
+
     </div>
   )
 }
