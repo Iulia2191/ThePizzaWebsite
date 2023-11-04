@@ -99,8 +99,9 @@ function List () {
       allergens: 'A, G',
       spicy: false,
       price: '11 €',
-      isNew: true
+      
     },
+    
     {
       id: 11,
       img: '..img/salami.jpg',
@@ -111,7 +112,29 @@ function List () {
       spicy: false,
       price: '13 €',
       isNew: true
-    }
+    },
+    {
+      id: 12,
+      img: '..img/salami.jpg',
+      title: "S'more Pizza",
+      ingredients:
+        'Nutella, getoastete Marshmellow, Butterkeks-Streusel',
+      allergens: 'A, G',
+      spicy: false,
+      price: '12 €',
+      isNew: true
+    },
+    {
+      id: 13,
+      img: '..img/salami.jpg',
+      title: 'Calzone',
+      ingredients:
+        'Füllung nach Wahl',
+      allergens: 'A, G',
+      spicy: false,
+      price: '12 €',
+  
+    },
   ]
   return (
     <div className='list py-3 text-light px-2'>

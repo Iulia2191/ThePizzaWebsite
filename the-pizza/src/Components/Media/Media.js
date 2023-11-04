@@ -5,6 +5,7 @@ import prosciuttoImage from './prosciutto.jpg';
 import margheritaImage from './margherita.jpg';
 import calzoneImage from './calzone.jpg'
 import doughImage from './pizza-dough.jpg'
+import agliImage from './agli.jpg'
 
 
 export const Media = [
@@ -15,4 +16,6 @@ export const Media = [
   { type: 'img', url: margheritaImage, alt: 'Margherita Pizza'},
   { type: 'img', url: calzoneImage, alt: 'Calzone Pizza'},
   { type: 'img', url: doughImage, alt: 'Pizza dough'},
+  { type: 'img', url: agliImage, alt: 'Agli spinaci Pizza'},
+
 ];
