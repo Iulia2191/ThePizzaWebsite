@@ -1,4 +1,4 @@
-noimport './Hero.scss'
+import './Hero.scss'
 import { Link } from 'react-router-dom'
 import { TweenMax, Power3 } from 'gsap'
 import { useEffect, useRef } from 'react'
