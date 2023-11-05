@@ -69,14 +69,14 @@ function Hero () {
         >
           Napolitan Style Pizza
         </h2>
-        <h4
+        <h3
           ref={el => {
             textItem2 = el
           }}
           className='hero-text px-1'
         >
           Original Napolitanishe Pizza in Ybbs an Der Donau
-        </h4>
+        </h3>
         <Link to='/menu'>
           <button
             onClick={scrollToTop}
