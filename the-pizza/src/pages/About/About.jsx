@@ -11,7 +11,7 @@ function About () {
           <h5 className='my-4 m text-center'>
             🍕Benvenuti! Beim neuen Geschmackserlebnis in der Stadt! 🎉{' '}
           </h5>
-          <h5 className='my-2 mx-2'>
+          <h5 className='my-2'>
             Original Napolitanishe Pizza in Ybbs an Der Donau
           </h5>
           <p>

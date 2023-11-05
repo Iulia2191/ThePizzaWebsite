@@ -12,8 +12,12 @@ function Credits() {
             <p className='text-light'>Image by <a href="https://www.freepik.com/free-ai-image/freshly-baked-rustic-margherita-pizza-plate-generated-by-ai_43023884.htm">stockgiu</a></p>
         </div>
        <div className='credits-image'>
-        <img src="../img/story.jpg" alt="" width='250px' height='250px'  />
+        <img src="../img/story.jpg" alt="Making dough" width='250px' height='250px'  />
        <p className='text-light'>Image by <a href="https://www.freepik.com/free-photo/front-view-baker-spreading-flour-dough-composition_5598221.htm#page=2&query=pizza%20dough&position=14&from_view=search&track=ais">Freepik</a></p>
+       </div>
+       <div className='credits-image'>
+        <img src="../img/about.jpg" alt="Pizza and mashroom"  width='250px' height='250px' />
+        <p>Image by <a href="https://www.freepik.com/free-vector/restaurant-mural-wallpaper_10372997.htm">Freepik</a></p>
        </div>
      
       </div>

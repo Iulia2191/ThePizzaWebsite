@@ -31,15 +31,14 @@
         padding: 10px;
       }
     }
-    
-}
+  }
 }
 
-@media(max-width: 924px){
-.about-title{
-he{
-padding-top: 200px;
-padding-bottom: 50px;
-}
-}
+@media (max-width: 520px) {
+  .about-title {
+    h2 {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+  }
 }

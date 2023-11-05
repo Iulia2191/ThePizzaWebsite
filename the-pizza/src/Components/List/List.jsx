@@ -111,7 +111,7 @@ function List () {
       allergens: 'A, G',
       spicy: false,
       price: '13 €',
-      isNew: true
+     
     },
     {
       id: 12,
@@ -122,10 +122,22 @@ function List () {
       allergens: 'A, G',
       spicy: false,
       price: '12 €',
-      isNew: true
+
     },
     {
       id: 13,
+      img: '..img/salami.jpg',
+      title: 'Spicy Hawaii',
+      ingredients:
+        'Fruchtige Tomatensauce, Parmigiano, Fior di Latte, Pikante Salami Calabrese, Ananas und Sriracha',
+      allergens: 'A, G',
+      spicy: true,
+      price: '12 €',
+      isNew: true,
+
+    },
+    {
+      id: 14,
       img: '..img/salami.jpg',
       title: 'Calzone',
       ingredients:

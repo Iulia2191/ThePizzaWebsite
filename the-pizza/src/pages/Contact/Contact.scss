@@ -1,5 +1,3 @@
-
-
 $fs-large: 1rem;
 $fs-medium: 0.875rem;
 $fs-small: 0.75rem;
@@ -9,178 +7,39 @@ $spacing-large: 1.75rem;
 $spacing-medium: 1rem;
 $spacing-small: 0.5rem;
 $spacing-tiny: 0.25rem;
-
 $mobile-logo-height: 45px;
-
 $imagine1-size: 150px;
 
-
-// .contact {
-//   min-height: 120vh;
-//   background-color: #0b1519;
-//   color: white;
-//   .contact-container {
-//     min-height: max-content;
-//     .contact-title {
-//       background-image: url("../img/about.jpg");
-//       background-size: cover;
-//       height: 45vh;
-//       padding-top: 120px;
-//       text-align: center;
-//       font-family: "Special Elite", sans-serif;
-//       text-transform: uppercase;
-//       color: white;
-//       text-shadow: 2px 2px 3px #530b0e;
-//     }
-
-
-//   h2, .main-paragraph, .contact-wrapper {
-//     margin-bottom: $spacing-large;
-//   }
-
-//   p {
-//     font-weight: 400;
-//   }
-
-//   .contact-wrapper {
-//     display: flex;
-//   }
-
-//   ul, form {
-//     width: 50%;
-//     display: flex;
-//     flex-direction: column;
-//     padding: $spacing-medium;
-//   }
-
-//   li {
-//     display: flex;
-//     justify-content: space-between;
-//     padding-bottom: $spacing-small;
-//     margin-bottom: $spacing-large;
-//     border-bottom: 1px solid #ddd;
-//   }
-
-//   .contact-wrapper p, a, label, input, textarea {
-//     font-size: $fs-medium;
-//   }
-
-//   .material-icons {
-//     vertical-align: middle;
-//    color: white;
-//   }
-
-//   .contact-wrapper p:not(.description), label, input, textarea {
-//     color: grey;
-//   }
-
-//   a, .description, input::placeholder {
-//     color: #8e8e8e;
-//   }
-
-//   a:hover {
-//     color: white;
-//   }
-
-//   label {
-//     margin-bottom: $spacing-tiny;
-//   }
-
-//   input, textarea {
-//     padding: $spacing-small;
-//     border: 1px solid #ddd;
-//     border-radius: 5px;
-//     margin-bottom: $spacing-medium;
-//   }
-
-//   input:focus, textarea:focus {
-//     border-color: #8e8e8e;
-//     outline: none;
-//   }
-
-//   textarea {
-//     font-family: inherit;
-//     height: 100px;
-//   }
-
-//   input[type="submit"] {
-//     font-size: $fs-medium;
-//     text-align: center;
-//     color: white;
-//     border-radius: 5px;
-//     padding: $spacing-small;
-//     width: 100px;
-//   }
-//   }
-//   @media (max-width: 768px) {
-//     .contact-wrapper {
-//       flex-direction: column;
-//     }
-
-//     ul, form {
-//       width: 100%;
-//       padding: 0;
-//     }
-
-//     li {
-//       margin-bottom: $spacing-medium;
-//     }
-
-//     li:last-of-type {
-//       margin-bottom: $spacing-large;
-//     }
-
-//     input[type="submit"] {
-//       margin-bottom: 0;
-//     }
-//   }
-// }
-
 .contact {
-    min-height: 120vh;
-    background-color: #0b1519;
-    color: white;
-    .contact-container {
-      min-height: max-content;
-      .contact-title {
-        background-image: url("../img/about.jpg");
-        background-size: cover;
-        height: 45vh;
-        padding-top: 120px;
-        text-align: center;
-        font-family: "Special Elite", sans-serif;
-        text-transform: uppercase;
-        color: white;
-        text-shadow: 2px 2px 3px #530b0e;
-      }
-      .contact-text{
-      .contact-information{
+  min-height: 120vh;
+  background-color: #0b1519;
+  color: white;
+  .contact-container {
+    min-height: max-content;
+    .contact-title {
+      background-image: url("../img/about.jpg");
+      background-size: cover;
+      height: 45vh;
+      padding-top: 120px;
+      text-align: center;
+      font-family: "Special Elite", sans-serif;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 2px 2px 3px #530b0e;
+    }
+    .contact-text {
+      .contact-information {
         display: flex;
-      
       }
-    }}
+    }
   }
-  @media (max-width: 768px) {
-        .contact-information {
-          flex-direction: column;
-          ul, form {
-            width: 100%;
-            padding: 0;
-          }
-      
-          li {
-            margin-bottom: $spacing-medium;
-          }
-      
-          li:last-of-type {
-            margin-bottom: $spacing-large;
-          }
-      
-          input[type="submit"] {
-            margin-bottom: 0;
-          }
-        }
-    
-       
-      }
-    
+}
+
+@media(max-width: 520px){
+  .contact-title{
+    h2{
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+  }
+}

@@ -39,3 +39,25 @@ ul {
     color: #530b0e;
   }
 }
+@media (max-width: 768px) {
+  .contact-information {
+    flex-direction: column;
+    ul,
+    form {
+      width: 100%;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: $spacing-medium;
+    }
+
+    li:last-of-type {
+      margin-bottom: $spacing-large;
+    }
+
+    input[type="submit"] {
+      margin-bottom: 0;
+    }
+  }
+}

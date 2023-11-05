@@ -17,6 +17,9 @@
         text-decoration: none;
         color: white;
     }
+    img{
+        object-fit: cover;
+    }
 }
 @media(max-width: 724px){
     .credits-text{
