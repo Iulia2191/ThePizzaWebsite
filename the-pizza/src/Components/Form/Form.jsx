@@ -38,10 +38,9 @@ function Form() {
   return (
     <div className='form'>
       <form className='contact-form' onSubmit={handleSubmit}>
-        <label htmlFor='name'>Name und Nachname:</label>
+        <label htmlFor='name'>Name:</label>
         <input
           type='text'
-          placeholder='z.B. Müller Anna'
           id='name'
           value={name}
           onChange={(e) => setName(e.target.value)}
