@@ -7,7 +7,7 @@ import calzoneImage from './calzone.jpg'
 import doughImage from './pizza-dough.jpg'
 import agliImage from './agli.jpg'
 import hawaiiImage from './hawaii.jpg'
-import salami2Image from './salami.jpg'
+import salami2Image from './salami2.jpg'
 
 export const Media = [
   { type: 'img', url: salamiImage, alt: 'Salami Pizza' },
