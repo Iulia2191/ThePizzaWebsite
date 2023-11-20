@@ -40,6 +40,13 @@
   transform: scale(1.1);
 }
 @media (max-width: 850px) {
+  .prosciutto-title {
+    height: max-content;
+    h2 {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+  }
   .prosciutto-img {
     flex-direction: column;
   }
